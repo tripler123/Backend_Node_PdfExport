@@ -1,0 +1,21 @@
+{
+  "name": "Test_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "fs-extra": "^8.0.1",
+    "handlebars": "^4.1.2",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^1.19.0",
+    "puppeteer": "^1.16.0"
+  }
+}

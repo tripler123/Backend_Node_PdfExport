@@ -1,0 +1,33 @@
+<style type="text/css">
+    h1{
+        color: blue;
+    }
+    p{
+        color: red;
+    }
+</style>
+
+<html>
+    <body>
+        <h1>Titutlo</h1>
+        <p>{{nombre}}</p>
+        <p>{{apellido}}</p>
+
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+            </tr>
+            {{#each issues as |issue|}}
+            <tr>
+                <td>
+                    {{issue.id}}
+                </td>
+                <td>
+                    {{issue.nombre}}
+                </td>
+            </tr>
+            {{/each}}
+        </table>
+    </body>
+</html>
